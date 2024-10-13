@@ -199,7 +199,19 @@ header_navs li:last-child:hover{
 .footer_links a:hover {
     text-decoration: underline;
 }
+
+
 @media (max-width: 768px) {
+    .container{
+        max-width: 600px;
+    }
+
+    .about_photo{
+        margin-left: 200px;
+    }
+    .about_icons{
+        top: 340px;
+    }
     .about_main {
         flex-direction: column;
         padding: 20px;
@@ -219,5 +231,13 @@ header_navs li:last-child:hover{
     .about_buttons a {
         display: block;
         margin-bottom: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .container{
+        max-width: 450px;
+    }
+    .header_right{
+        display: none;
     }
 }

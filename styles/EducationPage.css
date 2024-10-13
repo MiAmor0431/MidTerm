@@ -193,3 +193,51 @@ h1 {
 .footer_links a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
+    h1{
+        margin-left: 300px;
+    }
+}
+@media (max-width: 800px) {
+    .container{
+        max-width: 700px;
+    }
+}
+@media (max-width: 700px) {
+    .container{
+        max-width: 600px;
+    }
+    .school{
+        flex-direction: column;
+    }
+    h1{
+        margin-left: 200px;
+    }
+    .school img{
+        margin-left: 30px;
+    }
+    .school_dec{
+        margin-left: 30px;
+    }
+
+}
+@media (max-width: 500px) {
+    .container{
+        max-width: 400px;
+    }
+    .header_right{
+        display: none;
+    }
+    .school_inf{
+        max-width: 200px;
+        max-height: 300px;
+    }
+    .sdu_dec{
+        width: 350px;
+        height: 400px;
+    }
+}

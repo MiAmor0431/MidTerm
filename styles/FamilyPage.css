@@ -180,3 +180,23 @@ h1{
 .footer_links a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 1000px) {
+    .container{
+        max-width: 950px;
+    }
+    h1{
+        margin-left: 300px;
+    }
+}
+@media (max-width: 500px) {
+    .container{
+        max-width: 450px;
+    }
+    .header_right{
+        display: none;
+    }
+    h1{
+        margin-left: 100px;
+    }
+}
